@@ -1,5 +1,5 @@
 {
-  "name": "hiresphere",
+  "name": "jobspace",
   "version": "1.0.0",
   "description": "Full Stack Job Recruiter Platform",
   "main": "app.js",
@@ -12,16 +12,16 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",
-    "ejs": "^3.1.10",
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
     "express-session": "^1.17.1",
-    "hiresphere": "file:",
+    "jobspace": "file:",
     "moment": "^2.29.1",
-    "mongoose": "^8.12.1",
+    "mongoose": "^5.10.7",
     "multer": "^1.4.2",
     "nodemailer": "^6.4.14",
-    "passport": "^0.7.0",
+    "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "prompt": "^1.0.0"
   },

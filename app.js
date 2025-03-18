@@ -74,6 +74,12 @@ app.get('/',(req,res)=>{
 
 // Set the routes 
 
+// 1. Route for companies
+app.use('/company',require('./routes/company.js'));
+
+//2. Route for developer
+app.use('/developer',require('./routes/developer.js'));
+
 
 //listening to port
 app.listen(PORT,()=>{
