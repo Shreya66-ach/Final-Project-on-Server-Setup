@@ -118,33 +118,7 @@ router.post('/register',(req,res)=>{
                 //check if this email already registered under developer type
                 Developer.findOne({email:email})
                 .then(developer=>{
-                    if(developer)  
-
-
-
-
-
-
-
-                           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        jjj
+                    if(developer)
                     {
                         //email is registerd under a developer
                             errors.push({msg:'Email is already registerd'});
