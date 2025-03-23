@@ -227,9 +227,8 @@ router.post('/OTP/:emailID',(req,res)=>{
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'abhishekkumar.11801521@gmail.com',
-        // pass: 'jobspace@1234'
-        pass: 'yctx ndpw fkro texk' 
+        user: 'jobspace2020webster@gmail.com',
+        pass: 'jobspace@1234' 
       }
     });
   
